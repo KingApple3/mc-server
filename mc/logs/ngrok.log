@@ -1,0 +1,9 @@
+t=2021-01-08T20:03:00+0000 lvl=info msg="no configuration paths supplied"
+t=2021-01-08T20:03:00+0000 lvl=info msg="using configuration at default config path" path=/home/runner/.ngrok2/ngrok.yml
+t=2021-01-08T20:03:00+0000 lvl=info msg="open config file" path=/home/runner/.ngrok2/ngrok.yml err=nil
+t=2021-01-08T20:03:00+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2021-01-08T20:03:01+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2021-01-08T20:03:01+0000 lvl=info msg="client session established" obj=csess id=716c2f54e2a7
+t=2021-01-08T20:03:01+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:1025 url=tcp://0.tcp.in.ngrok.io:14256
+t=2021-01-08T20:03:01+0000 lvl=info msg=start pg=/api/tunnels id=0d4b506a3d664253
+t=2021-01-08T20:03:01+0000 lvl=info msg=end pg=/api/tunnels id=0d4b506a3d664253 status=200 dur=431.74µs
