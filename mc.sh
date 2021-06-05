@@ -68,8 +68,8 @@ require_executable "jre/bin/java"
 require_executable "ngrok"
 
 # environment variables
-require_env "ngrok_token" "your ngrok authtoken from https://dashboard.ngrok.com"
-require_env "ngrok_region" "your region, one of:
+require_env "ngrok_token=1rFw2fJYhT4jq2sYcOUr1gq77h3_7J32wB6saQnxM1PBMm6n1" "your ngrok authtoken from https://dashboard.ngrok.com"
+require_env "ngrok_region=eu" "your region, one of:
 us - United States (Ohio)
 eu - Europe (Frankfurt)
 ap - Asia/Pacific (Singapore)
